@@ -1,0 +1,126 @@
+*{
+    background-color: #000000; /* or any other dark color you prefer */
+}
+
+.navbar{
+   padding-left: 140px !important;
+  padding-right: 200px !important; 
+}
+.navbar-nav {
+  background-color: transparent; 
+}
+.navbar-toggler-icon {
+      background-color: white;
+    }
+
+.download-btn{
+    background-color: DodgerBlue;
+    color: white;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border-radius:5px;
+}
+
+.download-btn:hover {
+    background-color: RoyalBlue;
+  }
+  .banner-right img{
+    width: 300px;
+    margin-left: 80px;
+    
+  }
+.carousel {
+    width: 50%;
+    margin-right: auto;
+}
+
+.right-content {
+    margin-right: 20px;
+}
+.cardbox{
+    width: 70%;
+    margin:0 auto;
+    padding: 20px; 
+    border: 1px solid #717070; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}.contact-me {
+    padding: 30px; /* Reduced padding */
+    max-width: 450px; /* Set maximum width */
+    box-shadow: 4px 4px 20px gray;
+    border: 1px solid #717070;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.input-box {
+    padding: 10px;
+    width: 100%; /* Adjusted width */
+    margin-top: 10px;
+}
+
+.message {
+    margin-top: 15px;
+    height: 100px;
+    width: 100%; 
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .navbar-nav {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  .download-btn {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .banner-right .banner-image {
+    display: flex;
+    align-items: center;
+    margin: auto;
+  }
+
+  .cardbox0 {
+    padding: 20px;
+  }
+
+  .small-devices {
+    width: 100%;
+  }
+
+  .cardbox {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardbox .carousel-inner {
+    width: 100%;
+  }
+
+  .cardbox .right-content {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+}
